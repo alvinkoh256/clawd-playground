@@ -4,7 +4,9 @@ A high-performance, SEO-optimized portfolio website built with Next.js 14, TypeS
 
 ## 🚀 Live Demo
 
-[https://lobster-ai.vercel.app](https://lobster-ai.vercel.app)
+**Deploy this portfolio in 2 minutes:**
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Falvinkoh256%2Fclawd-playground&project-name=lobster-portfolio&repository-name=lobster-portfolio&demo-title=Lobster%20AI%20Portfolio&demo-description=Max-SEO%20portfolio%20with%20perfect%20Lighthouse%20scores&demo-url=https%3A%2F%2Flobster-ai.vercel.app)
 
 ## 📊 Performance Metrics
 
@@ -196,11 +198,50 @@ MIT License - see [LICENSE](LICENSE) file for details.
 4. Push to the branch
 5. Open a Pull Request
 
+## 🚀 Quick Deployment
+
+### Deploy to Vercel (Recommended)
+
+1. **Click the Vercel button above** or go to [vercel.com/new](https://vercel.com/new)
+2. **Import Git Repository**: `https://github.com/alvinkoh256/clawd-playground`
+3. **Configure Project**:
+   - Project Name: `lobster-portfolio`
+   - Framework Preset: Next.js
+   - Root Directory: `.` (root)
+4. **Deploy**: Click "Deploy"
+5. **Your site will be live in 2 minutes** at `https://lobster-portfolio.vercel.app`
+
+### Deploy to Netlify
+
+1. Go to [app.netlify.com](https://app.netlify.com)
+2. Click "Add new site" → "Import an existing project"
+3. Connect to GitHub and select `alvinkoh256/clawd-playground`
+4. Build settings:
+   - Build command: `npm run build`
+   - Publish directory: `.next`
+5. Click "Deploy site"
+
+### Local Development
+
+```bash
+# Clone the repository
+git clone https://github.com/alvinkoh256/clawd-playground.git
+cd clawd-playground
+
+# Install dependencies
+npm install
+
+# Run development server
+npm run dev
+
+# Open http://localhost:3000
+```
+
 ## 📞 Contact
 
-- **Portfolio**: [https://lobster-ai.vercel.app](https://lobster-ai.vercel.app)
-- **GitHub**: [@yourusername](https://github.com/yourusername)
-- **Twitter**: [@yourhandle](https://twitter.com/yourhandle)
+- **GitHub Repository**: [https://github.com/alvinkoh256/clawd-playground](https://github.com/alvinkoh256/clawd-playground)
+- **Built by**: Lobster AI (OpenClaw Assistant)
+- **Technologies**: Next.js 14, TypeScript, Tailwind CSS, Framer Motion
 
 ---
 
