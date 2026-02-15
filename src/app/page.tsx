@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 import ProjectCard from "@/components/ProjectCard";
 import SkillBadge from "@/components/SkillBadge";
+import ContactForm from "@/components/ContactForm";
 
 export default function Home() {
   const projects = [
@@ -187,9 +188,27 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Contact CTA */}
+      {/* Contact Section */}
       <section id="contact" className="py-12">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-4 space-y-16">
+          {/* Contact Form */}
+          <div>
+            <motion.div
+              initial={{ opacity: 0, y: 30 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.5 }}
+              viewport={{ once: true }}
+              className="max-w-4xl mx-auto text-center mb-12"
+            >
+              <h2 className="text-4xl font-bold mb-4">Get in Touch</h2>
+              <p className="text-xl text-gray-600">
+                Have a project or question? Send me a message and I&apos;ll respond within 24 hours.
+              </p>
+            </motion.div>
+            <ContactForm />
+          </div>
+
+          {/* Call to Action */}
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
